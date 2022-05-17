@@ -10,6 +10,3 @@ env             = "dev"
 tier= "backend"
 name="project123"
 
-type=123
-type4
-
