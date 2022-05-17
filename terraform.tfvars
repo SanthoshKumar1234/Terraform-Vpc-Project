@@ -8,4 +8,5 @@ cicdr           = "0.0.0.0/0"
 appname         = "aaa-cr"
 env             = "dev"
 tier= "backend"
+name="project123"
 
