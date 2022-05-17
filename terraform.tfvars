@@ -7,4 +7,5 @@ secret_key      = "leZ45XGbwKyU+kXAF6dDrtEcGJWdYjq9Y2cmkLe+"
 cicdr           = "0.0.0.0/0"
 appname         = "aaa-cr"
 env             = "dev"
+tier= "backend"
 
