@@ -1,0 +1,19 @@
+name: Read File Content
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  read_file_content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Read File Content
+        run: |
+          file_path="example.txt"  # Replace with the path to your file
+          file_content=$(cat "$file_path")
+          echo "File content: $file_content"
