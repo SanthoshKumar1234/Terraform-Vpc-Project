@@ -1,1 +1,1 @@
-user:  ${{ secrets.DATA}}
+user:  ${{ variables.VALUE}}
